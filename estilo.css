@@ -146,7 +146,7 @@ body main nav div#link-wp a span {
     float: left;
     position: relative;
     
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 0.9em;
     letter-spacing: 0.035em;
     text-align: right;
@@ -167,7 +167,22 @@ body main nav div#botones-contacto {
     float: right;
     position: relative;
 }
-body main nav div#botones-contacto a { }
+body main nav div#botones-contacto a { 
+    width: 100%;
+    height: auto;
+    margin: 0 auto 5px auto;
+    float: none;
+    display: block;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 0.035em;
+    text-decoration: none;
+    text-align: right;
+    color: #fff;
+    transition: all 0.3s ease-in;
+
+}
 body main nav div#botones-contacto a i { }
 body main nav div#botones-contacto a:hover { }
 body main nav div#botones-contacto a:hover i { }
